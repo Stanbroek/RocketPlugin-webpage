@@ -1,0 +1,64 @@
+baseURL = 'https://rocketplugin.dev/'
+languageCode = 'en-us'
+title = 'Rocket Plugin'
+paginate = 5
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[minify]
+disableXML = true
+# minifyOutput = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+description = "Rocket Plugin - https://bakkesplugins.com/plugins/view/26"
+author = "Stanbroek"
+defaultTheme = "dark"
+disableThemeToggle = false
+ShowReadingTime = false
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+comments = false
+
+[params.homeInfoParams]
+Title = "Rocket Plugin 🚀"
+Content = "A Bakkesmod plugin for joining, hosting and manipulating local games."
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Stanbroek/RocketPlugin"
+
+[[params.socialIcons]]
+name = "bakkesplugins"
+url = "https://bakkesplugins.com/plugins/view/26"
+
+[[params.socialIcons]]
+name = "discord"
+url = "https://discord.gg/hWPX9tq"
+
+[[menu.main]]
+name = "Archive"
+url = "archives/"
+weight = 5
+
+[[menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+[[menu.main]]
+name = "GitHub"
+url = "https://github.com/Stanbroek/RocketPlugin"
+
+[[menu.main]]
+name = "BakkesPlugins"
+url = "https://bakkesplugins.com/plugins/view/26"
+
+[[menu.main]]
+name = "Discord"
+url = "https://discord.gg/hWPX9tq"
