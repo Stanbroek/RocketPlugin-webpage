@@ -9,7 +9,7 @@ enableEmoji = true
 
 [minify]
 disableXML = true
-# minifyOutput = true
+minifyOutput = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
